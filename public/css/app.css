@@ -1,0 +1,54 @@
+body {
+    width: 70em;
+    margin: 0 auto;
+}
+
+#me {
+    width: 100%;
+    text-align: center;
+}
+
+#remoteVideos video {
+    height: 150px;
+}
+
+#localVideo {
+    height: 150px;
+}
+
+.videoContainer {
+    position: relative;
+    margin-top: 2em;
+    width: 200px;
+    height: 150px;
+}
+
+.videoContainer video {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.connectionstate {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    color: green;
+}
+
+.nickname {
+    position: absolute;
+    top: -1em;
+    font-size: 15pt;
+    width: 100%;
+    text-align: center;
+    color: black;
+}
+
+video {
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 2%;
+    box-shadow: 2px 2px 5px #373737;
+}
